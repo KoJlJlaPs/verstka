@@ -2,11 +2,71 @@
 body{
   margin: 0;
   width:1295px;
-  font-family: 'Gilroy-Bold', sans-serif;
-  font-size: 28px;
+  font-family: 'Gilroy-Medium', sans-serif;
+  margin: auto;
 }
 
-.text{  
-  font-family: 'Gilroy-Bold', sans-serif;
-    font-size: 28px;
+.header{
+  display:flex;
+  padding: 0;
+  margin:0;
+  height: 90px;
+}
+
+
+.container{
+  border-left:1px solid #C4C4C4;
+  border-right: 1px solid #C4C4C4;
+  display: flex;
+  align-items: center;
+} 
+
+.logo{
+  max-width: 185px;
+  height: auto;
+  margin:17px 35px;
+} 
+
+.contacts{
+  display:flex;
+  padding:0 30px;
+} 
+
+.loc{
+  padding: 0 23px;
+}
+.location-contatiner{
+  border-radius: 50%;
+  padding: 1px 8px;
+  margin-left: 15px;
+  background-color:#4FBFA5;
+ 
+}
+
+ .button-helper {
+  display: flex;
+  align-items: center;
+  background-color: #00868A;
+  border: none;
+  padding: 10px 15px;
+  padding-bottom: 8px;
+  margin:0;
+} 
+
+ .eye-helper{
+    padding: 0 30px;
+} 
+
+.eye {
+  order: -1;
+  margin-right: 10px;
+}
+
+.social-club{
+  padding:0 28px;
+} 
+
+.text-header{
+  font-size: 16px;
+  line-height: 19px;
 }
