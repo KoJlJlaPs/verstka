@@ -138,3 +138,66 @@ margin:0;
   padding: 10px 15px;
   padding-top:9px;
 }
+/* nav-end */
+.medi-info{
+display:grid;
+grid-template-columns: 5fr 7fr;
+column-gap: 0;
+}
+
+.medi-info-container{
+align-self: center;
+color:#fff;
+}
+.title {
+  font-size: 48px;
+  line-height: 150%; 
+  margin:0;
+  margin-bottom: 20px;
+}
+
+.medi-info-text{
+  margin: 0;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 55px;
+  max-width: 416px;
+}
+
+.more-info{
+
+  text-transform:uppercase;
+  align-items: center;
+  padding: 15px 25px 14px;
+  background-color:#00868A;
+  text-decoration: none;
+  color:#fff;
+  font-family: 'Gilroy-Regular',
+    sans-serif;
+}
+.next{
+  transform: rotate(180deg);
+ 
+}
+
+.services-logo{
+float: right;
+ 
+}
+.about{
+  background-color: #00868A;
+  grid-column: span 2;
+}
+
+.button{
+  background-color:#4FBFA5;
+  border:1px solid white;
+  padding:14px 10px ;
+  float:right;
+  align-self:bottom;
+  margin-top:134px;
+}
+
+.btn-next {
+  margin-right: 60px;
+}
