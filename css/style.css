@@ -239,6 +239,7 @@ padding: 24px 99px;
   margin: 0 auto;
   padding-top: 80px;
   display: flex;
+  justify-content: space-between;
 }
 
 .inovations{
@@ -294,11 +295,23 @@ padding: 24px 99px;
   margin-top:45px;
   justify-content: flex-end;
 }
+.sertificats{
+  display:flex;
+ 
+}
 
 .sertificats-container{
   display: flex;
-  margin-left: 134px;
-  padding-top: 35px;
+  margin-top: 25px;
+  background-image: url(/img/sertificat.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 195px;
+  
+}
+
+.s-two{
+  margin: 0;
 }
 
 .cnt{
@@ -306,8 +319,37 @@ padding: 24px 99px;
   line-height: 150%;
   color: #000000;
   opacity: 0.3;
+  margin-right: 20px;
 }
 
-.sertificat{
- 
+.first{
+ margin-top: 30px;
 }
+.stf-info-text{
+ display: flex;
+ align-items:center;
+}
+
+.text{
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.cnt-main{
+  font-size: 96px;
+  line-height: 150%;
+  color: #00868A;
+  margin-right: 30px;
+}
+
+.main-text{
+  font-size: 28px;
+  line-height: 150%;
+  color: #000000;
+}
+.main-num{
+  margin:20px 0;
+}
+
