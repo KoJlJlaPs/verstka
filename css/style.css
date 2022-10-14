@@ -256,7 +256,8 @@ padding: 24px 99px;
   margin-left: 40px;
   padding:10px 15px;
   background-color:#4FBFA5;
-  color: white
+  color: white;
+  font-family: 'Gilroy-Regular', sans-serif;
 }
 .inovations>p{
   max-width:485px;
@@ -271,7 +272,6 @@ padding: 24px 99px;
 
 .more>button{
   background-color: inherit;
-
   border:1px solid white;
   margin-left: 40px;
   padding: 10px 13px;
@@ -292,5 +292,22 @@ padding: 24px 99px;
 .img-service{
   display: flex;
   margin-top:45px;
- justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.sertificats-container{
+  display: flex;
+  margin-left: 134px;
+  padding-top: 35px;
+}
+
+.cnt{
+  font-size: 48px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.sertificat{
+ 
 }
